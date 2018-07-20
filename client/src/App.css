@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:700,700i');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,600');
+
+body {
+  background: #5A92A4
+}
+
+h1 {
+  color: #FFE488;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #B7D0D8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.panel-default {
+  border: 0;
+}
+
+.panel-default>.panel-heading {
+  background: #2F7389;
+  color: #FFE488;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.listedPanel {
+  border: 1px solid #dedede;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.panel .listedHeading {
+  background: #A3CC4D;
+}
+
+.panel .listedTitle {
+  color: #094257;
+}
+
+.panel .listedBody {
+  background: #fafafa;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  background: #B7D0D8;
+  border-top: 0;
+}
+
+.frmRequired {
+  padding-left: 4px;
+  color: red;
+}
+
+.introText {
+  font-size: 16px;
+  color: #666666;
+  padding: 20px 40px;
+}
+
+.kw-gly {
+  padding: 0px 10px;
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.kw-btn, .kw-sbmt, .kw-nxt {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.kw-btn {
+  margin-bottom: 20px;
+  text-align: left;
+}
